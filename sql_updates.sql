@@ -1,3 +1,1 @@
-delete FROM spawn_location_placement where spawn_location_id=284011;
-delete FROM spawn_location_name where id=284011;
-delete FROM spawn_location_entry where spawn_id=330084 and spawn_location_id = 284011;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428999, 'QC024_01_ALargeCoastalCrab428999' FROM spawn_location_group;
