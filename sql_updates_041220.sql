@@ -1,12 +1,1 @@
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044806, 1044805);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044807, 1044805);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044808, 1044805);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044809, 1044805);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044811, 1044810);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044812, 1044810);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044813, 1044810);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044814, 1044810);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044816, 1044815);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044817, 1044815);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044818, 1044815);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044819, 1044815);
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 429011, 'QC025_01_AGiantCoastalCrab429011' FROM spawn_location_group;
