@@ -1,2 +1,13 @@
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 429024, 'QC025_03_AGiantCoastalCrab429024' FROM spawn_location_group;
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 429025, 'QC025_03_AGiantCoastalCrab429025' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 429026, 'QC025_03_AGiantCoastalCrab429026' FROM spawn_location_group;
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044821, 1044820);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044822, 1044820);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044823, 1044820);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044824, 1044820);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044826, 1044825);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044827, 1044825);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044828, 1044825);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044829, 1044825);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044831, 1044830);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044832, 1044830);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044833, 1044830);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044834, 1044830);
