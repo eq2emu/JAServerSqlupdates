@@ -1,12 +1,2 @@
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428049, 'QC030_01_AGroveDeer428049' FROM spawn_location_group;
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428050, 'QC030_01_AGroveDeer428050' FROM spawn_location_group;
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428051, 'QC030_01_AGroveDeer428051' FROM spawn_location_group;
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 433017, 'QC030_01_ATaintedGroveDeer433017' FROM spawn_location_group;
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 429416, 'QC030_01_ADefiledGroveDeer429416' FROM spawn_location_group;
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044898, 1044897);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044899, 1044897);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044900, 1044897);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044901, 1044897);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1044902, 1044897);
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428052, 'QC030_02_AGroveDeer428052' FROM spawn_location_group;
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428053, 'QC030_02_AGroveDeer428053' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428054, 'QC030_02_AGroveDeer428054' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428055, 'QC030_02_AGroveDeer428055' FROM spawn_location_group;
