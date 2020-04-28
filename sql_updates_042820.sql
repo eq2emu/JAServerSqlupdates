@@ -1,0 +1,9 @@
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432967, 'QC033_01_ADeadSoldier432967' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432974, 'QC033_01_ADeadSoldier432974' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432971, 'QC033_01_ADeadSoldier432971' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432973, 'QC033_01_ADeadSoldier432973' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432968, 'QC033_02_ADeadSoldier432968' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432969, 'QC033_02_ADeadSoldier432969' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432975, 'QC033_03_ADeadSoldier432975' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432972, 'QC033_03_ADeadSoldier432972' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 432970, 'QC033_03_ADeadSoldier432970' FROM spawn_location_group;
