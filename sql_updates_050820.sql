@@ -1,5 +1,11 @@
-insert into spawn (id, name, race, model_type, size, targetable, show_name, command_primary, command_secondary, visual_state, attackable, show_level, show_command_icon, display_hand_icon, faction_id, collision_radius, hp, power, prefix, suffix, last_name) values(1950128, 'menders anvil', 255, 41, 32, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 26, '', '', '');
-insert into spawn_objects (spawn_id) values(1950128);
-insert into spawn_location_name (id, name) values(1587589, 'mendersanvil');
-insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(1950128, 1587589, 100);
-insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(195, 1587589, 990.603760, 2.161243, -348.388519, 0.000000, 0.000000, 0.000000, 327.593750, 32099134);
+insert into spawn (id, name, race, model_type, size, targetable, show_name, command_primary, command_secondary, visual_state, attackable, show_level, show_command_icon, display_hand_icon, faction_id, collision_radius, hp, power, prefix, suffix, last_name) values(1950129, 'briarwood stool', 255, 2142, 32, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 26, '', '', '');
+insert into spawn_objects (spawn_id) values(1950129);
+insert into spawn_location_name (id, name) values(1587590, 'briarwood stool');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(1950129, 1587590, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(195, 1587590, 988.737610, 2.128649, -349.300568, 0.000000, 0.000000, 0.000000, 325.890625, 32099134);
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428361, 'QC038_01_AGhostlySapling428361' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428382, 'QC038_01_AGhostlySapling428382' FROM spawn_location_group;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428401, 'QC038_01_AGhostlySapling428401' FROM spawn_location_group;
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045005, 1045004);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045006, 1045004);
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 428418, 'QC038_02_AGhostlySapling428418' FROM spawn_location_group;
