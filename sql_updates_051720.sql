@@ -1,1 +1,2 @@
-update spawn_objects, spawn set name='qst_news_for_germain_leaf_sample', model_type=3908, show_name=1, targetable=1, size=38, command_primary=0, command_secondary=0, visual_state=0, attackable=0, show_level=0, show_command_icon=1, display_hand_icon=1, collision_radius=37, hp = 0, power = 0, device_id = 0 where spawn_objects.spawn_id = spawn.id and spawn.id = 1960154;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1587668, 'QC040_03_ATaintedSapswillTapper1587596' FROM spawn_location_group;
+insert ignore into spawn_location_group (group_id, placement_id) values(1045044, 1587669);
