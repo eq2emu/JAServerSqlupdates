@@ -1,3 +1,1 @@
-insert into spawn_location_name (id, name) values(1587613, 'Laena');
-insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2780097, 1587613, 100);
-insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(278, 1587613, 250.520004, -3.960000, -4.730000, 0.000000, 0.000000, 0.000000, 263.828125, 1246288135);
+update spawn_location_placement set x=271.896545, y=-5.084421, z=-7.344467, heading=83.812500, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=1246288135, pitch=0.000000, roll=0.000000 where id = 1587685;
