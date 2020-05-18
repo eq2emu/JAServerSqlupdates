@@ -1,0 +1,14 @@
+insert into spawn (id, name, race, model_type, size, targetable, show_name, command_primary, command_secondary, visual_state, attackable, show_level, show_command_icon, display_hand_icon, faction_id, collision_radius, hp, power, prefix, suffix, last_name) values(1960182, 'qst_returning_to_the_disturbance', 255, 3908, 37, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, '', '', '');
+insert into spawn_objects (spawn_id) values(1960182);
+insert into spawn_location_name (id, name) values(1587609, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(1960182, 1587609, 0);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(196, 1587609, 1155.989380, -21.880678, -742.565369, 0.000000, 0.000000, 0.000000, 298.484375, 1180498244);
+insert into spawn_location_name (id, name) values(1587610, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(1960182, 1587610, 0);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(196, 1587610, 1155.226929, -21.909697, -744.101624, 0.000000, 0.000000, 0.000000, 312.312500, 1180498244);
+insert into spawn_location_name (id, name) values(1587611, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(1960182, 1587611, 0);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(196, 1587611, 1152.536255, -21.981470, -741.752319, 0.000000, 0.000000, 0.000000, 247.828125, 1180498244);
+insert into spawn_location_name (id, name) values(1587612, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(1960182, 1587612, 0);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(196, 1587612, 1151.814819, -21.985666, -743.583923, 0.000000, 0.000000, 0.000000, 298.875000, 1180498244);
