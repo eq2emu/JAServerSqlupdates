@@ -1,12 +1,4 @@
-insert into spawn_location_name (id, name) values(1587616, 'QueensColony_ADeadDeer');
-insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530204, 1587616, 100);
-insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587616, 160.274200, 1.404060, 36.909611, 0.000000, 0.000000, 0.000000, 247.031250, 3146737430);
-insert into spawn_location_name (id, name) values(1587617, 'QueensColony_ADeadDeer');
-insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530204, 1587617, 100);
-insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587617, 159.966125, 1.405357, 36.147762, 0.000000, 0.000000, 0.000000, 238.703125, 3146737430);
-insert into spawn_location_name (id, name) values(1587618, 'QueensColony_ADeadDeer');
-insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530204, 1587618, 100);
-insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587618, 160.167465, 1.404559, 36.411602, 0.000000, 0.000000, 0.000000, 220.171875, 3146737430);
-update spawn_location_placement set x=161.794586, y=1.398300, z=37.644489, heading=10.187500, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=3146737430, pitch=0.000000, roll=0.000000 where id = 1587690;
-update spawn_location_placement set x=160.782440, y=1.402086, z=37.369602, heading=269.968750, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=45, expire_timer=0, expire_offset=0, grid_id=3146737430, pitch=0.000000, roll=0.000000 where id = 429338;
-update spawn_location_placement set x=161.007690, y=1.401162, z=37.052570, heading=263.968750, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=45, expire_timer=0, expire_offset=0, grid_id=3146737430, pitch=0.000000, roll=0.000000 where id = 429338;
+delete FROM spawn_location_placement where spawn_location_id=449830;
+delete FROM spawn_location_name where id=449830;
+delete FROM spawn_location_entry where spawn_id=120949 and spawn_location_id = 449830;
+update spawn_location_placement set x=-18.879736, y=-3.146171, z=114.555153, heading=178.640625, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=924281492, pitch=0.000000, roll=0.000000 where id = 401778;
