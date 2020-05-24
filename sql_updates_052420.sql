@@ -1,0 +1,13 @@
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045053, 1045052);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045054, 1045052);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045055, 1045052);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(35188, 1045052);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045056, 1045052);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(29459, 1045052);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045057, 1045052);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045058, 1045052);
+insert into spawn_location_name (id, name) values(1587646, 'QueensColony_ADeadDeer');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530204, 1587646, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587646, 157.297470, 1.402542, 95.958351, 0.000000, 0.000000, 0.000000, 68.453125, 3146737430);
+update spawn_location_placement set x=153.822235, y=1.415700, z=93.979477, heading=183.453125, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=45, expire_timer=0, expire_offset=0, grid_id=3146737430, pitch=0.000000, roll=0.000000 where id = 1584931;
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1584931, 'QC040_21_ATaintedSapswillTapper1584913' FROM spawn_location_group;
