@@ -1,1 +1,12 @@
-update spawn_location_placement set x=36.135700, y=4.061380, z=98.869598, heading=300.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=1521001342, pitch=0.000000, roll=0.000000 where id = 474004;
+insert into spawn_location_name (id, name) values(1587655, 'QueensColony_ATaintedSapswillTapper');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530021, 1587655, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587655, 163.545975, 1.382856, 79.933746, 0.000000, 0.000000, 0.000000, 31.218750, 3146737430);
+insert into spawn_location_name (id, name) values(1587656, 'QueensColony_ATaintedSapswillTapper');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530021, 1587656, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587656, 162.473877, 1.386619, 80.818863, 0.000000, 0.000000, 0.000000, 11.984375, 3146737430);
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1587731, 'QC040_22_ATaintedSapswillTapper1587655' FROM spawn_location_group;
+insert ignore into spawn_location_group (group_id, placement_id) values(1045063, 1587732);
+insert into spawn_location_name (id, name) values(1587657, 'QueensColony_ADeadDeer');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530204, 1587657, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587657, 160.082108, 1.395557, 80.231979, 0.000000, 0.000000, 0.000000, 351.843750, 3146737430);
+update spawn_location_placement set x=162.495407, y=1.387777, z=74.974434, heading=139.250000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=45, expire_timer=0, expire_offset=0, grid_id=3146737430, pitch=0.000000, roll=0.000000 where id = 1587731;
