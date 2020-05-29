@@ -1,1 +1,5 @@
-update spawn_objects, spawn set name='my new name', model_type=3908, show_name=1, targetable=1, size=38, command_primary=1140, command_secondary=0, visual_state=0, attackable=0, show_level=0, show_command_icon=0, display_hand_icon=0, collision_radius=37, hp = 0, power = 0, device_id = 0 where spawn_objects.spawn_id = spawn.id and spawn.id = 1960182;
+insert into spawn (id, name, race, model_type, size, targetable, show_name, command_primary, command_secondary, visual_state, attackable, show_level, show_command_icon, display_hand_icon, faction_id, collision_radius, hp, power, prefix, suffix, last_name) values(1960183, 'book', 255, 2306, 32, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 26, '', '', '');
+insert into spawn_objects (spawn_id) values(1960183);
+insert into spawn_location_name (id, name) values(1587667, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(1960183, 1587667, 0);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(196, 1587667, 1157.073364, -21.838942, -744.456787, 0.000000, 0.000000, 0.000000, 275.078125, 1180498244);
