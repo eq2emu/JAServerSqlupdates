@@ -1,0 +1,16 @@
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1587753, 'QC042_04_ALostScout1587677' FROM spawn_location_group;
+insert into spawn_location_name (id, name) values(1587678, 'QueensColony_ALostScout');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530207, 1587678, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587678, 243.623520, -7.221218, 99.825783, 0.000000, 0.000000, 0.000000, 350.937500, 1246288135);
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1587754, 'QC042_04_ALostScout1587678' FROM spawn_location_group;
+insert into spawn_location_name (id, name) values(1587679, 'QueensColony_ALostScout');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530207, 1587679, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587679, 248.288895, -6.083079, 69.985405, 0.000000, 0.000000, 0.000000, 176.312500, 1246288135);
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1587755, 'QC042_04_ALostScout1587679' FROM spawn_location_group;
+insert into spawn_location_name (id, name) values(1587680, 'QueensColony_ALostScout');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530207, 1587680, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587680, 246.751144, -4.655669, 63.922100, 0.000000, 0.000000, 0.000000, 164.390625, 1246288135);
+INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1587756, 'QC042_04_ALostScout1587680' FROM spawn_location_group;
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045080, 1045079);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045081, 1045079);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045082, 1045079);
