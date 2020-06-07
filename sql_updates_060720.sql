@@ -1,4 +1,10 @@
-insert into spawn_location_name (id, name) values(1587699, 'QueensColony_ATaintedFalcon');
-insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(2530016, 1587699, 100);
-insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(253, 1587699, 229.300415, -0.827207, -71.789940, 0.000000, 0.000000, 0.000000, 192.250000, 1246288135);
-INSERT INTO spawn_location_group (group_id, placement_id, name) SELECT IF(ISNULL(MAX(group_id))=1, 100000, MAX(group_id)+1), 1587775, 'QC046_02_ATaintedFalcon1587699' FROM spawn_location_group;
+insert into spawn (id, name, race, model_type, size, targetable, show_name, command_primary, command_secondary, visual_state, attackable, show_level, show_command_icon, display_hand_icon, faction_id, collision_radius, hp, power, prefix, suffix, last_name) values(6480035, 'ArasaiTortureInstrument', 255, 1, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 26, '', '', '');
+insert into spawn_objects (spawn_id) values(6480035);
+insert into spawn_location_name (id, name) values(1587700, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(6480035, 1587700, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(648, 1587700, 22.292477, 3.001110, 60.843884, 0.000000, 0.000000, 0.000000, 2.265625, 1202477810);
+update spawn_location_placement set x=6.870310, y=3.002512, z=39.565502, heading=2.281250, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=1202477810, pitch=0.000000, roll=0.000000 where id = 1587776;
+update spawn_location_placement set x=-12.648955, y=3.318937, z=32.613747, heading=2.296875, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=1202477810, pitch=0.000000, roll=0.000000 where id = 1587776;
+update spawn_location_placement set x=-21.453390, y=3.999903, z=32.867855, heading=2.312500, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=1202477810, pitch=0.000000, roll=0.000000 where id = 1587776;
+update spawn_location_placement set x=-38.206810, y=5.134335, z=43.961243, heading=50.328125, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=1202477810, pitch=0.000000, roll=0.000000 where id = 1587776;
+update spawn_location_placement set x=-38.379906, y=5.133896, z=44.001583, heading=56.343750, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=1202477810, pitch=0.000000, roll=0.000000 where id = 1587776;
