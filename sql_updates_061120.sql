@@ -1,4 +1,14 @@
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045124, 1045123);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045125, 1045123);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045126, 1045123);
-insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045127, 1045123);
+update spawn_location_placement set x=10.103529, y=4.025032, z=56.235107, heading=182.812500, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=3600, expire_timer=0, expire_offset=0, grid_id=1202477810, pitch=0.000000, roll=0.000000 where id = 1587783;
+insert into spawn_location_name (id, name) values(1587725, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(6480036, 1587725, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(648, 1587725, 29.436193, 4.165239, 36.277603, 0.000000, 0.000000, 0.000000, 182.812500, 1385078500);
+update spawn_location_placement set x=-25.894646, y=0.091247, z=4.054173, heading=85.921875, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=1768322476, pitch=0.000000, roll=0.000000 where id = 437503;
+insert into spawn_location_name (id, name) values(1587726, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(6480036, 1587726, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(648, 1587726, -27.318632, 2.300104, 12.537861, 0.000000, 0.000000, 0.000000, 182.812500, 1768322476);
+insert into spawn_location_name (id, name) values(1587727, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(6480036, 1587727, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(648, 1587727, 21.601475, 0.738753, 8.182939, 0.000000, 0.000000, 0.000000, 156.000000, 3035293588);
+insert into spawn_location_name (id, name) values(1587728, 'new');
+insert into spawn_location_entry (spawn_id, spawn_location_id, spawnpercentage) values(6480036, 1587728, 100);
+insert into spawn_location_placement (zone_id, spawn_location_id, x, y, z, x_offset, y_offset, z_offset, heading, grid_id) values(648, 1587728, -40.260075, 4.002518, 45.631016, 0.000000, 0.000000, 0.000000, 144.000000, 289376477);
