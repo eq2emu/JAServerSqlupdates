@@ -1,0 +1,15 @@
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045138, 1045136);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045141, 1045136);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045144, 1045136);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045142, 1045139);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045145, 1045139);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045151, 1045139);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045140, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045143, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045146, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045147, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045148, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045149, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045150, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045152, 1045137);
+insert ignore into spawn_location_group_associations (group_id1, group_id2) values(1045153, 1045137);
