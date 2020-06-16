@@ -1,6 +1,6 @@
-update spawn_npcs, spawn set name='a militia guard', min_level=1, max_level=1, enc_level=3, race=9, model_type=132, class_=3, gender=1, show_name=1, attackable=0, show_level=0, targetable=1, show_command_icon=1, display_hand_icon=0, hair_type_id=1123, facial_hair_type_id=1180, wing_type_id=0, chest_type_id=5529, legs_type_id=5530, soga_hair_type_id=1123, soga_facial_hair_type_id=1180, soga_model_type=132, size=35, hp=16, heroic_flag=0, power=16, collision_radius=34, command_primary=0, command_secondary=0, visual_state=0, action_state=0, mood_state=0, initial_state=16512, activity_status=0, alignment=0, faction_id=0, hide_hood=0, emote_state=0, suffix ='', prefix='', last_name='' where spawn_npcs.spawn_id = spawn.id and spawn.id = 5890107;
-delete FROM spawn_location_placement where spawn_location_id=332233;
-delete FROM spawn_location_name where id=332233;
-delete FROM spawn_location_entry where spawn_id=5890059 and spawn_location_id = 332233;
-update spawn_location_placement set x=266.498444, y=-21.027395, z=-5.623593, heading=65.968750, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=23056599, pitch=0.000000, roll=0.000000 where id = 570954;
-update spawn_location_placement set x=324.105865, y=-20.851870, z=12.225765, heading=306.390625, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=23056599, pitch=0.000000, roll=0.000000 where id = 570931;
+update spawn_location_placement set x=695.287598, y=-20.528612, z=266.745728, heading=96.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=616414262, pitch=0.000000, roll=0.000000 where id = 571247;
+delete FROM spawn_location_placement where spawn_location_id=445204;
+delete FROM spawn_location_name where id=445204;
+delete FROM spawn_location_entry where spawn_id=5590774 and spawn_location_id = 445204;
+update spawn_location_placement set x=-178.327972, y=-54.420010, z=-68.117928, heading=66.031250, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=1576854799, pitch=0.000000, roll=0.000000 where id = 57041;
+update spawn_location_placement set x=-177.409744, y=-56.208260, z=-66.350967, heading=48.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=1576854799, pitch=0.000000, roll=0.000000 where id = 57043;
