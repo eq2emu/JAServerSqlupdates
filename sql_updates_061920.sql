@@ -1,0 +1,9 @@
+update spawn_location_placement set x=-118.594101, y=-0.214396, z=-116.131325, heading=359.968750, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=1542021198, pitch=0.000000, roll=0.000000 where id = 394188;
+update spawn_location_placement set x=-111.223045, y=-1.092079, z=-134.848602, heading=320.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=1676437992, pitch=0.000000, roll=0.000000 where id = 394170;
+update spawn_location_placement set x=-28.960346, y=0.216225, z=-84.511948, heading=244.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=824085600, pitch=0.000000, roll=0.000000 where id = 394226;
+update spawn_location_placement set x=-17.141695, y=-0.363070, z=-98.071129, heading=0.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=824085600, pitch=0.000000, roll=0.000000 where id = 394228;
+update spawn_location_placement set x=-8.347704, y=0.955836, z=-84.724586, heading=270.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=824085600, pitch=0.000000, roll=0.000000 where id = 394238;
+update spawn_location_placement set x=9.528685, y=0.955836, z=-133.828659, heading=170.000000, x_offset=0.000000, y_offset=0.000000, z_offset=0.000000, respawn=300, expire_timer=0, expire_offset=0, grid_id=824085600, pitch=0.000000, roll=0.000000 where id = 617415;
+delete FROM spawn_location_placement where spawn_location_id=617370;
+delete FROM spawn_location_name where id=617370;
+delete FROM spawn_location_entry where spawn_id=1550042 and spawn_location_id = 617370;
